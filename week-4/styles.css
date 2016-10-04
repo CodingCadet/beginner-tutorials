@@ -1,0 +1,40 @@
+body {
+    background-color: red;
+}
+h1 {
+	color: #383838;
+	font-size: 40px;
+}
+p {
+	color: #00ff00;
+	font-size: 16px;
+	font-family: “comic sans MS”, cursive, sans-serif;
+}
+
+img {
+	margin: 10px;
+	padding: 5px;
+	height: 300px;
+	width: 230px;
+	border: 1px solid #404040;
+}
+div {
+	border: 1px groove #CCCCCC;
+}
+.schedule{
+	background-color: #28d92a;
+	border-radius: 5px;
+	padding:5px;
+}	
+#red-paragraph {
+	color: red;
+}
+
+table, th, td{
+	border:5px solid #0000ff;
+	font-size:20px;
+}
+
+a{
+	font-size:40px;
+}

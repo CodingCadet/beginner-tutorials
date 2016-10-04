@@ -1,0 +1,15 @@
+/* Add these styles in order to make your unordered list look like a proper navbar. By setting each list item to have
+a display of inline, each tabs is on the same line, giving the typical navbar look. */
+
+.navbar-tabs {
+    list-style-type: none;
+
+}
+
+.navbar-item {
+	display: inline;
+}
+
+img {
+    width: 80%;
+}

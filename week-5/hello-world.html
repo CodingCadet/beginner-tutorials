@@ -1,0 +1,134 @@
+<!-- https://docs.google.com/presentation/d/1Ayt9dg6NkmkYujJhJxhfQJul0XVxRtTw3NYkdHiqv6Q/edit?usp=sharing -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Week 5</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+	<body>
+		<!-- Added an ID of "top" to demonstrate new anchor properties --> 
+		<h1 id="top">This is a heading!</h1>
+		<p>This is a paragraph.</p>
+		<div>
+			<img src="http://img.costumecraze.com/images/vendors/rubies/49909-BK-Kids-Black-Fedora-Hat-large.jpg">
+			<p id="red-paragraph">This is an example of extra p tags with an ID. It should be red</p>
+			<h6>It'll be easier to see the divs with multiple tags</h6>
+		</div>
+		<div class="schedule">
+			<h3>My Schedule</h3>
+			<ol>
+				<li>Chemistry</li>
+				<li>US History</li>
+				<li>Physics</li>
+				<li>English</li>
+				<li>Calculus</li>
+				<li>Choir</li>
+			</ol>
+		</div>
+		<ul>
+			<li>bullet 1</li>
+			<li>bullet 2</li>
+			<li>bullet 3</li>
+		</ul>
+		<table>
+			<tr>
+				<th></th>
+				<th>SAT Scores</th>
+			</tr>
+			<tr>
+				<td>Dennis Park</td>
+				<td>2400</td>
+			</tr>
+			<tr>
+				<td>Dongjoon Lee</td>
+				<td>2400</td>
+			</tr>
+			<tr>
+				<td>Aakarsh Aithal</td>
+				<td>2500</td>
+			</tr>
+		</table>
+		<p>This is a a paragraph.</p>
+		<br>
+		<p>This is a paragraph after a line break.</p>
+		<p>This is another paragraph.</p>
+		<hr>
+		<p>This is a paragraph after a horizontal break.</p>
+		<p>&nbsp;&nbsp;&nbsp;This is a paragraph with 3 spaces in front of it.</p>
+		<a href="contact.html">Contact</a>
+		
+		<!-- Let's create a paragraph block with an id of "text-formatting". Within the 
+		paragraph, we can have HTML tags that format the text certain ways. Here we have 4
+		different formatting methods-- bold, italicized, subscript, and superscript. The tag
+		names are self-explanatory: <b> for bold <i> for italicized, etc.-->
+		<p id="text-formatting">This is a normal paragraph. But within the normal paragraph, I
+		am able to create <b>bolded text</b> and <i>italicized text</i> using embedded 
+		HTML properties. Subscripts and superscripts can also be created similarly.
+		C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> is called glucose.
+		f(x) = x<sup>2</sup></p>
+		<!-- Demonstration of pseudo-classes. Look at the CSS file to read more. -->
+		<a class="pseudo-demo" href="contact.html">Demo Contact</a>
+
+		
+		
+		<!-- Span tags are very similar to paragraph tags in that they both display text
+		on a website normally. However, span tags have their display css property equal 
+		to inline, making two spans appear on the same line. -->
+		<p>This is a paragraph!</p>
+		<p>This is another paragraph.</p>
+		<span>This is a span!</span>
+		<span>This is another span.</span>
+		<!-- HTML elements such as divs and headings that are not displayed inline by
+		default could have classes that allow them to be displayed inline. -->
+		<h1>This heading should be above</h1>
+		<h1>this heading.</h1>
+		<h1 class="inline-heading">This heading should be</h1>
+		<h1 class="inline-heading">right next to this one!</h1>
+		<br>
+		<div class="green-section">This is a green div.</div>
+		<div class="blue-section">This is a blue div right next to a green div!</div>
+		<!-- HTML elements could also have their css display property equal to none. This
+		makes them hidden to the user.-->
+		<p class="ninja-paragraph">I am lurking in this code.</p>
+		
+		<!-- You can set the anchor href value to an id within the same HTML document.
+		It will allow for navigation within the same page.-->
+		<a href="#top">Return to top</a>hello
+		
+		<a href="#red-paragraph">Middle</a>
+		
+		<br>
+		<br>
+		
+		<p>You <i>should go to</i> the <b>dentist</b></p>
+		<p>My favorite drink is H<sub>2</sub>O 
+		and my favorite number is 2<sup>8</sup></p>
+		
+		<p>I like visiting the <span>zoo</span></p>
+		
+		<h3 class = "inline-text">Hi</h3>
+		<h3 class = "inline-text"> my nambuttse is Michael</h3>
+		<br>
+		
+		<p class = "green-text">I'm Green</p>
+		<p class = "hidden">I'm Blue</p>
+		
+		<h3 class="inline-heading">swag</h3>
+		<h3 class="inline-heading">second swag</h3>
+		
+		<span>This is a span!!!</span>
+		<p>Hi my name is <span>cookies</span> !!!</p>
+		
+		<div>
+			<span>This is a span!</span>
+			<span>This is another one!</span>
+		</div>
+		<div>
+			<p>I am a paragraph</p>
+			<p>I am a paragraph too</p>
+		</div>
+		<a href="contact.html">Contact</a>
+		
+	</body>
+</html>
+

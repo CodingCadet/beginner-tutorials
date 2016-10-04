@@ -1,0 +1,39 @@
+.my-navbar {
+    background-color: #3498db;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.navbar-tabs {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar-item {
+	display: inline;
+	letter-spacing: 1px;
+	padding: 20px;
+	text-transform: uppercase;
+}
+/* This states that all anchor tags that are directly within a HTML tag with a class of navbar-item will have a color of white */ 
+.navbar-item > a {
+    color: white;
+}
+
+img {
+	width: 90%;
+}
+/* Other than the accented navbar, the colors are all neutral */
+.caption{
+	font-size: 18px;
+}
+.navbar-tabs {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-item {
+	display: inline;
+} 

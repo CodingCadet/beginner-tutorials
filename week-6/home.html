@@ -1,0 +1,58 @@
+<!-- https://docs.google.com/presentation/d/1dzXr45GmFGkPu86Keq30I-x8PvEc_AYYmZ1fhsw242U/edit?usp=sharing-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home</title>
+	</head>
+	<body>
+		<div>
+			<ul class="navbar-tabs">
+				<li>hello</li>
+				<li>contact</li>
+			</ul>
+		</div>
+		<!-- Many modern websites that you will encounter in life such as Facebook and Youtube will have a navbar of 
+		sorts at the top of their websites. These navbars have tabs that link to various sections of their websites. In
+		order to create a navbar, you should make a div to act as the navbar "container", and then create an unordered
+		list inside the div. The list items inside this unordered list will act as the "tabs" of the navbar". You can
+		remove the bullet points of your list and make all the list items appear on one line through css to create
+		a proper looking navbar. Inside each list item, put an anchor tag linking to a HTML file to link parts of your
+		site together! -->
+		<!--<div class="navbar">
+        	<ul class="navbar-tabs">
+				<li class="navbar-item"><a href="home.html">Home</a></li>
+                <li class="navbar-item"><a href="contact.html">Contact</a></li>
+ -           </ul>			
+		</div>-->
+		<!--This is an example of the Bootstrap Grid System. It pulls from the Bootstrap library online. For more
+		details on Bootstrap itself, visit the Google Drive Slides and read it there. Here in this example, we have
+		three divs necessary in creating a responsive grid system. Everything must be enclosed in a div class="container"
+		which creates margins on the sides of the browser tab. Each row needs a new div class="row". We have two rows
+		in this example. Within a row, use div class="col-md-*" where the * is any number between 1 and 12. Make sure
+		each row uses 12 total. 
+		Row 1: 4 + 4 + 4 = 12
+		Row 2: 6 + 6 = 12
+		This grid system is useful because it responds to changing browser window size. Click on Run and view it
+		on a browser tab to see it in effect. Try changing the browser size.-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<img src="http://www.reactiongifs.us/wp-content/uploads/2013/04/puking_rainbows_gravity_falls_looped.gif">
+				</div>
+				<div class="col-md-8">
+					<img src="http://www.reactiongifs.us/wp-content/uploads/2013/04/puking_rainbows_gravity_falls_looped.gif">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<img src="http://www.reactiongifs.us/wp-content/uploads/2013/04/puking_rainbows_gravity_falls_looped.gif">
+				</div>
+				<div class="col-md-6">
+					<img src="http://c.fastcompany.net/multisite_files/fastcompany/poster/2014/01/3025003-poster-p-dog-2.jpg">
+				</div>
+			</div>
+		</div>
+    </body>
+</html>

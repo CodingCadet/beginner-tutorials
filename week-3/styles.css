@@ -1,0 +1,49 @@
+body {
+    background-color: red;
+}
+h1 {
+	color: #383838;
+	font-size: 40px;
+}
+p {
+	color: #00ff00;
+	font-size: 16px;
+	font-family: “comic sans MS”, cursive, sans-serif;
+}
+
+img {
+	margin: 10px;
+	padding: 5px;
+	height: 300px;
+	width: 230px;
+	border: 1px solid #404040;
+}
+/* Reference divs like any other tag*/
+
+div {
+	border: 1px groove #CCCCCC;
+}
+
+/* Create classes in CSS by citing a class name with a period (.)
+before. The class name could be anything but try to keep it identifiable
+to the readers of the code. Its name should be related to what it really is*/
+.schedule{
+	background-color: #28d92a;
+	border-radius: 5px;
+	padding:5px;
+}	
+
+/* Create IDs similarly except instead of a period, you would use a hash (#)
+in front of the ID Name. The only difference between a class and an ID is that
+you should make sure that you use ID for only one tag while you can reuse class
+names for multiple elements in your HTML*/
+#red-paragraph {
+	color: red;
+}
+
+.blue-paragraph{
+	color: blue;
+}
+#purple-paragraph{
+	color: purple;
+}

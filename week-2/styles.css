@@ -1,0 +1,34 @@
+/* You edit how everything in a certain tag looks by writing css as so: 
+    tagname {
+        attribute: what value you want to change the attribute to
+    }
+In this case, you want the entire webpage to be red, so you would set the atrribute of the background color of the body 
+tag to have a color of red. */
+body {
+    background-color: red;
+}
+/* In order to have less common colors such as red and blue, you could look up the hexadecimal code for a color to use.
+You could make text look colorful by editing the "color" attribute of tags that involve text such as heading tags and p 
+tags. You could edit the font-size of text tags as well by editing the "font-size" attribute. */
+h1 {
+	color: #383838;
+	font-size: 40px;
+}
+/* You could change the font of text tags on your website by editing the "font-family" attribute of your text tag */
+p {
+	color: #00ff00;
+	font-size: 16px;
+	font-family: “comic sans MS”, cursive, sans-serif;
+}
+/* You could make images on your website certain sizes by editing the height and width attribute of the img tag. In
+addition you could add border around your image by editing the "border" attribute and setting it equal to the thickness 
+of the border in pixels, the pattern of the border, and the color of the border. Editing the "margin" attribute edits
+how much space surrounds the border in pixels and editing the "padding" attribute edits how much space is between the 
+border and the actual image. */
+img {
+	margin: 10px;
+	padding: 5px;
+	height: 200px;
+	width: 300px;
+	border: 1px solid #404040;
+}
